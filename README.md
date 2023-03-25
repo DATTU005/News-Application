@@ -4,11 +4,11 @@ In the project directory, you can run:
 
 ## Before running `npm start` use :
 
-# [1] `npm install` after cloning the github repo .
+#### [1] `npm install` after cloning the github repo .
 
-# [2] If it gives depenedancy errors use `npm ci`.
+#### [2] If it gives depenedancy errors use `npm ci`.
 
-# [3] Still it gives depenedancy errors use `npm install --force`.
+#### [3] Still it gives depenedancy errors use `npm install --force`.
 
 and then start the application usin `npm start`.
 
