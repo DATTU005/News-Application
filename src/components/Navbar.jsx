@@ -37,7 +37,11 @@ function Navbar() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" className={classes.title}>
+            <Typography
+              variant="h6"
+              sx={{ fontFamily: "Nunito" }}
+              className={classes.title}
+            >
               Zintlr News
             </Typography>
             <IconButton

@@ -55,7 +55,12 @@ const NewsCard = () => {
         <div
           className="item"
           key={index}
-          style={{ backgroundImage: `url(${article.urlToImage})` }}
+          style={{
+            backgroundImage: `url(${article.urlToImage})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center ",
+          }}
         >
           <div className="newsInfo">
             <div className="text">
@@ -72,6 +77,11 @@ const NewsCard = () => {
               <span style={{ color: "white" }}>{article.title}</span>
               <br />
               <span>{article.description}</span>
+              <span>
+                <a href={article.url} target="_blank">
+                  Read more
+                </a>
+              </span>
             </div>
           </div>
         </div>
