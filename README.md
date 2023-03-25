@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 #### [3] Still it gives depenedancy errors use `npm install --force`.
 
-and then start the application usin `npm start`.
+and then start the application using `npm start`.
 
 ### `npm start`
 
